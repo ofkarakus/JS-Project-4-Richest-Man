@@ -48,8 +48,6 @@ Build a Calculator that is functionally similar to this: [Richest Person List]( 
 
 - Step 2: Create project folder for local public repo on your pc
 
-- Step 3: Create Parallax Website
-
 >>Part-1 HTML Structure
 
 	- Creat structure of the HTML5

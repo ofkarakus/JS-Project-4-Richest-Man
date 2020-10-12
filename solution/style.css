@@ -1,0 +1,117 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: beige;
+}
+
+header {
+  margin-bottom: 2rem;
+}
+
+header h1 {
+  text-align: center;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 60%;
+}
+
+main .button {
+  height: 20rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 4;
+      -ms-flex: 4;
+          flex: 4;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  border-right: 1px solid black;
+  padding-right: 1.5rem;
+}
+
+main .button button {
+  width: 12rem;
+  height: 2rem;
+}
+
+main .display {
+  -webkit-box-flex: 6;
+      -ms-flex: 6;
+          flex: 6;
+  padding-left: 1.5rem;
+}
+
+main .display__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid black;
+  padding-bottom: 0.5rem;
+}
+
+main .display__title p {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nameWealth {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nameWealth p {
+  margin: 3px;
+  margin-top: 5px;
+  font-weight: 500;
+}
+
+#nameWealth {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #d1e9ff;
+  margin-top: 2rem;
+}
+
+#nameWealth p {
+  margin: 3px;
+  font-weight: bold;
+}
+/*# sourceMappingURL=style.css.map */
